@@ -1,0 +1,36 @@
+{
+  "name": "FreeBees",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^4.3.0",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.0",
+    "react-native-camera": "^0.10.0",
+    "react-native-checkbox": "^1.2.0",
+    "react-native-dropdown": "git+https://github.com/g6ling/react-native-dropdown.git",
+    "react-native-dropdown-android": "0.0.12",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-modal-dropdown": "^0.5.0",
+    "react-native-navigation": "^1.1.213",
+    "react-native-router-flux": "^4.0.0-beta.21",
+    "react-native-selectme": "^1.2.3",
+    "react-native-vector-icons": "^4.3.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "21.0.0",
+    "babel-preset-react-native": "3.0.2",
+    "jest": "21.0.1",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

@@ -1,0 +1,2 @@
+export const INPUTED_EMAIL = 'INPUTED_EMAIL'
+export const SAVED_EMAIL = 'SAVED_EMAIL'
